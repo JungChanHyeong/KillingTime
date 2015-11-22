@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ktmain2">
+
+    <ImageButton
+        android:id="@+id/btn_infinite"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/infinite" />
+
+    <ImageButton
+        android:id="@+id/btn_test"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/test" />
+
+    <ImageButton
+        android:id="@+id/btn_perfect"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/perfect" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/back"
+        android:onClick="btnBack"/>
+</RelativeLayout>
