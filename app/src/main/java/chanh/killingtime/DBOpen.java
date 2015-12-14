@@ -1,3 +1,19 @@
+/*
+ * Copyright 2015 Killing Time Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package chanh.killingtime;
 
 import android.content.Context;
@@ -81,7 +97,7 @@ public class DBOpen extends SQLiteOpenHelper {
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
                 + " VALUES('연예', '서태지와 아이들의 4집 앨범 타이틀곡은?', 3, '난 알아요', '캔디', '컴백홈', '울트라맨');"); //31
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
-                + " VALUES('연예', '[넌 학생이고, 난 학생이야]의 대사의 드라마 남주인공은?', 2, '김제동', '김재원', '소지섭', '현빈');"); //32
+                + " VALUES('연예', '[난 선생이고, 넌 학생이야]의 대사의 드라마 남주인공은?', 2, '김제동', '김재원', '소지섭', '현빈');"); //32
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
                 + " VALUES('연예', 'KBS에서 이소라의 음악프로그램이었던 이름은?', 4, '이소라의 뮤직뱅크', '이소라의 스케치북', '이소라의 100분토론', '이소라의 프로포즈');"); //33
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
@@ -203,7 +219,7 @@ public class DBOpen extends SQLiteOpenHelper {
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
                 + " VALUES('상식', '영국의 수도는?', 3, '파리', '서울', '런던', '오사카');"); //90
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
-                + " VALUES('상식', '저작권의 유지 기간은?', 4, '20년', '30년', '40년', '50년');"); //91
+                + " VALUES('상식', '저작권의 유효 기간은?', 4, '20년', '30년', '40년', '50년');"); //91
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
                 + " VALUES('상식', '나폴레옹의 국적은?', 1, '프랑스', '한국', '일본', '중국');"); //92
         db.execSQL("insert into db_quiz (category ,quiz, right, answer1, answer2, answer3, answer4)"
