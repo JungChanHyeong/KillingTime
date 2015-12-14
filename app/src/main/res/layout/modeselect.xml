@@ -12,7 +12,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="90dp"
-        android:background="@drawable/infinite" />
+        android:background="@drawable/infinite"
+        android:onClick="btnInfinite" />
 
     <ImageButton
         android:id="@+id/btn_test"
@@ -43,5 +44,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="450dp"
         android:background="@drawable/back"
-        android:onClick="btnBack"/>
+        android:onClick="btnBack" />
 </RelativeLayout>

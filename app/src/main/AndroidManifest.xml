@@ -18,6 +18,7 @@
         <activity android:name=".ModeSelect" />
         <activity android:name=".Record" />
         <activity android:name=".Help" />
+        <activity android:name=".InfiniteMode"/>
     </application>
 
 </manifest>
