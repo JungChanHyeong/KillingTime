@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class PerfectMode extends InfiniteMode {
+public class PerfectMode extends InfiniteMode { // 형식이 비슷한 Infinite Mode 상속받아 사용
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +22,9 @@ public class PerfectMode extends InfiniteMode {
         ex3 = (Button) findViewById(R.id.ex3);
         ex4 = (Button) findViewById(R.id.ex4);
 
-        dbopen = new DBOpen(this);
-        db = dbopen.getReadableDatabase();
-
         toast = Toast.makeText(this, "null", Toast.LENGTH_SHORT);
 
-        random = Math.abs(rand.nextInt(3) + 1);
+        random = Math.abs(rand.nextInt(170) + 1);
         selectData(random);
         score = 0;
         count.setText(Integer.toString(score));

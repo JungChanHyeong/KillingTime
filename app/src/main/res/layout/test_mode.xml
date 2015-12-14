@@ -5,4 +5,146 @@
     android:background="@drawable/ktmain2"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:text=" 분야"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="예시"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="남은문제"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/remain"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="10"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="정답수"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="100"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/problem"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#a0191919"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#a0191919"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/ex1"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#a0191919"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/ex2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#a0191919"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/ex3"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#a0191919"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/ex4"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
 </LinearLayout>

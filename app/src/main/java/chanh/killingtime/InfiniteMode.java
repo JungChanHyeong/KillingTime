@@ -30,7 +30,7 @@ public class InfiniteMode extends Activity {
     static int score;
 
     static Random rand = new Random(System.currentTimeMillis());
-    static int random;
+    static int random; // 문제 램덤 출력을 위한 random 변수
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class InfiniteMode extends Activity {
         toast = Toast.makeText(this, "null", Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0, -230);
 
-        random = Math.abs(rand.nextInt(3) + 1);
+        random = Math.abs(rand.nextInt(170) + 1);
         selectData(random);
         score = 0;
         count.setText(Integer.toString(score));
@@ -142,7 +142,7 @@ public class InfiniteMode extends Activity {
     }
 
     protected void readDb() {
-        random = Math.abs(rand.nextInt(3) + 1);
+        random = Math.abs(rand.nextInt(170) + 1);
         selectData(random);
         count.setText(Integer.toString(score));
     }
