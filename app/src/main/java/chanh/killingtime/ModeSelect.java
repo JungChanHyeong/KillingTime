@@ -18,6 +18,16 @@ public class ModeSelect extends Activity {
         startActivity(intent);
     }
 
+    public void btnTest(View v) {
+        Intent intent = new Intent(this, TestMode.class);
+        startActivity(intent);
+    }
+
+    public void btnPerfect(View v) {
+        Intent intent = new Intent(this, PerfectMode.class);
+        startActivity(intent);
+    }
+
     public void btnBack(View v) {
         finish();
     }

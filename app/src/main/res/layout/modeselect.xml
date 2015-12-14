@@ -23,7 +23,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="210dp"
-        android:background="@drawable/test" />
+        android:background="@drawable/test"
+        android:onClick="btnTest"/>
 
     <ImageButton
         android:id="@+id/btn_perfect"
@@ -33,7 +34,8 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="330dp"
-        android:background="@drawable/perfect" />
+        android:background="@drawable/perfect"
+        android:onClick="btnPerfect"/>
 
     <ImageButton
         android:id="@+id/btn_back"

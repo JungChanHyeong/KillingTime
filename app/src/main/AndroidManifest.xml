@@ -19,6 +19,8 @@
         <activity android:name=".Record" />
         <activity android:name=".Help" />
         <activity android:name=".InfiniteMode"/>
+        <activity android:name=".TestMode"/>
+        <activity android:name=".PerfectMode"/>
     </application>
 
 </manifest>
