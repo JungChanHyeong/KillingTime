@@ -35,7 +35,7 @@ public class InfiniteMode extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.infinite_mode);
+        setContentView(R.layout.infi_perf_mode);
 
         tView = (TextView) findViewById(R.id.category);
         problem = (TextView) findViewById(R.id.problem);
@@ -118,7 +118,7 @@ public class InfiniteMode extends Activity {
     }
 
     // Data 읽기(꺼내오기)
-    public void selectData(int index) {
+    protected void selectData(int index) {
         String sql = "select * from db_quiz where id = " + index + ";";
         Cursor result = db.rawQuery(sql, null);
 
@@ -141,7 +141,7 @@ public class InfiniteMode extends Activity {
         result.close();
     }
 
-    private void readDb() {
+    protected void readDb() {
         random = Math.abs(rand.nextInt(3) + 1);
         selectData(random);
         count.setText(Integer.toString(score));
